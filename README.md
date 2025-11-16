@@ -30,25 +30,22 @@ A simple yet functional Task Manager application built with **Flask**, featuring
 
 ---
 
-## 📂 Project Structure
-taskmanager/
-├── app/
-│ ├── templates/
-│ │ ├── base.html
-│ │ ├── login.html
-│ │ ├── register.html
-│ │ └── tasks.html
-│ ├── static/
-│ │ ├── css/
-│ │ │ └── style.css
-│ │ └── js/
-│ │ └── scripts.js
-│ ├── routes/
-│ │ ├── auth.py
-│ │ └── tasks.py
-│ ├── models.py
-│ └── init.py
-├── run.py
-├── requirements.txt
-└── .gitignore
+## Setup Instructions
 
+### 1. Clone the repository
+```bash
+git clone https://github.com/RishabhChauhan-AI/Task-Manager_Flask.git
+cd Task-Manager_Flask
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the App
+```bash
+python run.py
+```
+### 3. Visit in Browser
+```bash
+http://127.0.0.1:5000/auth/login
+```
