@@ -1,0 +1,21 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.list-group-item {
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.btn-success,
+.btn-primary {
+  padding: 6px 16px;
+}
+
+.alert {
+  margin-bottom: 1rem;
+}
